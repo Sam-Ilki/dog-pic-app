@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>Here's a dog pic!</h1>
+        <h1>Dog Pics</h1>
     </header>
     <section>
-        <form action="#">
+        <form class="quantity" action="#">
             <label for="quantity">How many dogs do you want to see?</label>
                 <input id="quantity" name="quantity" type="text" value="3" required>
             <button>Submit</button>
@@ -22,6 +22,17 @@
         <div class="displayDog">
         </div>
     
+    </section>
+    <section>
+    <form action="#" class="breed">
+            <label for="breed">What breed do you want to see?</label>
+                <input id="breed" name="breed" type="text" required>
+            <button>Submit</button>
+        </form>
+
+        <h2>Here are your dogs!</h2>
+        <div class="displayBreed">
+        </div>
     </section>
 
     <script
